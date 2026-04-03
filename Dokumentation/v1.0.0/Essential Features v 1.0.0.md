@@ -42,3 +42,14 @@
 - UI Entscheidungen
 - Figuren Stats organisieren und sammeln
 - Nachschlagewerk
+
+# Use-Cases
+
+- Schicksals-Karte ziehen
+- Trefferkarten ziehen
+- Charakter bewegen 
+- Charakter beschädigen / heilen
+- Charakter ansehen
+- Spielbrett initieren
+- Charaktere hinzufügen 
+- Charaktere entfernen

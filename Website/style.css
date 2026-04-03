@@ -1,0 +1,69 @@
+
+.map-display {
+        position: absolute;
+        background: #000;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+}
+
+
+.character-detail-container { 
+        position: absolute;
+        width: 300px;
+        height: 400px;
+        top: 10px;
+        right: 10px;
+}
+
+
+.character-detail {
+        background: #831d1d;
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+}
+
+.controls-container {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+}
+.controls-container button {
+        width: 100px;
+        height: 40px;
+        
+}
+
+.connect-button {
+
+}
+
+.initiate-game-button {
+
+}
+
+.add-character-button {
+
+}
+
+
+.actions-container {
+        position: absolute;
+        right: 5px;
+        bottom: 15px;
+        align-items: baseline;
+}
+
+.actions-container button {
+        height: 40px;
+}
+
+.fight-button {
+
+}
+
+.draw-card-button {
+
+}

@@ -7,16 +7,16 @@
         <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <canvas class="map-display"></canvas>
+        <canvas class="map-display", id="map-display"></canvas>
 
-        <div class="character-detail-container">
-                <canvas class="character-detail"></canvas>
+        <div class="character-detail-container", id="character-detail-container">
+                <canvas class="character-detail", id="character-detail"></canvas>
         </div>
 
         <div class="controls-container">
-                <button class="connect-button">Zu Spiel verbinden</button>
-                <button class="initiate-game-button">Spielbrett initiieren</button>
-                <button class="add-character-button">Charakter hinzufügen</button>
+                <button class="connect-button", id="connect-button">Zu Spiel verbinden</button>
+                <button class="initiate-game-button", id="initiate-game-button">Spielbrett initiieren</button>
+                <button class="add-character-button", id="add-character-button">Charakter hinzufügen</button>
         </div>
 
         <div class="actions-container">
@@ -24,6 +24,10 @@
                 <button class="draw-card-button">Schicksalskarte ziehen</button>
         </div>
 
+        <div class="source-material">
+                <img id = "Forgotten_Island" src="./source/maps/Forgotten_Island.png" alt="">
+        </div>
 
+        <script type="module" src="./source_code/main.js"></script>
 </body>
 </html>

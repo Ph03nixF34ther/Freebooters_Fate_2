@@ -1,0 +1,34 @@
+{
+        "fractions" : 
+                [
+                        {
+                        "fraction name" : "Die Debonn",
+                        "description" : "",
+                        "models" : [
+                                {
+                                        "model name" : "Jeanne Jaques Raynal",
+                                        "value" : 75,
+                                        "character sheet" : "/Debonn Bilder/DEB001_JeanneRaynal_front_d.jpg",
+                                        "token" : "/Jeanne_Jaques_Raynal.png"
+                                },
+                                {
+                                        "model name" : "Fusilier",
+                                        "value" : 30,
+                                        "character sheet" : "/Debonn Bilder/DEB016a_Fusilier_front_d.jpg",
+                                        "token" : "/Fusilier.png"
+                                },
+                                {
+                                        "model name" : "Vieille Garde",
+                                        "value" : 30,
+                                        "character sheet" : "/Debonn Bilder/DEB018a_VieilleGard_front_d.jpg",
+                                        "token" : "/Vieille_Garde.png"
+                                }
+                        ]
+                        }
+                ]
+        ,
+
+        "rules" : {
+                
+        }
+}

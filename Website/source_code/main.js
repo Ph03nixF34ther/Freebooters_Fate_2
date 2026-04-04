@@ -2,20 +2,23 @@
 // Datum: 3.4.2026
 // Autor: Leon Söns & Elias Niebergall
 
+import { character } from "./map_handling/character.js";
 import { Map_Display_Handler } from "./map_handling/map_display_handler.js";
 
 const DRAG_BUTTON = 0;
 const SCROLL_BUTTON = 3;
 
 const MAP_NAME = "Forgotten_Island";
+const SCALE = 1;
 
+const characte = new character("debonn", 0);
 // Der Code wird nur ausgeführt, wenn alle Elemente korrekt geladen wurden.
 document.addEventListener("DOMContentLoaded", () => {
 
         // Alle Elemente aus der HTML-Seite entnehmen
         const map_display = document.getElementById("map-display");
         const character_detail = document.getElementById("character-detail");
-        
+
         const map_image = document.getElementById(MAP_NAME);
         
         const character_detail_ctx = character_detail.getContext("2d");
@@ -90,6 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (e.key == "f") {
                         requestFullscreen();
                 }
-        })
+        });
+
 
 });

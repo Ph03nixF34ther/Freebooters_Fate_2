@@ -1,4 +1,4 @@
-{
+export const data = {
         "fractions" : 
                 [
                         {
@@ -31,4 +31,4 @@
         "rules" : {
                 
         }
-}
+};

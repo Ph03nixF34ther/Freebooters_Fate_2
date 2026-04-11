@@ -45,7 +45,6 @@ export class character {
         }
 
         draw_character_sheet (ctx) {
-                console.log(this)
                 ctx.clearRect(0, 0, 300, 400);
                 ctx.drawImage(this.front, 0, 0, WIDTH_OF_CHARACTER_DETAIL, HEIGHT_OF_CHARACTER_DETAIL);
                 this.crosses.forEach(cross => {
